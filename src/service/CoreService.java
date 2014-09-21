@@ -109,16 +109,16 @@ public class CoreService {
 						stmt = conn.createStatement();
 						stmt.executeUpdate("update user_info set cardid ='"+reqCardId+"' where openid = '" + fromUserName + "' ");
 						Article article1 = new Article();
-						article1.setTitle("卡号绑定成功，欢迎来到\n淮阴工学院计算机工程学院");
-						article1.setDescription("");
-						article1.setPicUrl("http://liuwenru491001.wicp.net/weixinparent/images/01.jpg");
-						article1.setUrl("http://liuwenru491001.wicp.net/weixinparent/introduction.html");
+						article1.setTitle("卡号绑定成功，欢迎来到\n【计算机▪迎新专栏】新生安全须知");
+						article1.setDescription("亲爱的计算机工程学院的亲们：学校的生活多姿多彩，却又紧张有序。总体上，学校环境优美，治安状况良好。但是，你依旧需要树立安全意识，做到警钟长鸣，防患于未然。");
+						article1.setPicUrl("http://liuwenru491001.wicp.net/weixinparent/images/safe.jpg");
+						article1.setUrl("http://mp.weixin.qq.com/s?__biz=MzA3MzMzNzEyNA==&mid=200780186&idx=1&sn=1b4dfca966e1b8a59d0b08cde2c19fc7#rd");
 
 						Article article2 = new Article();
-						article2.setTitle("【计算机▪迎新专栏】新生安全须知");
-						article2.setDescription("");
-						article2.setPicUrl("http://liuwenru491001.wicp.net/weixinparent/images/04.jpg");
-						article2.setUrl("http://liuwenru491001.wicp.net/weixinparent/safety.html");
+						article2.setTitle("【计算机 ▪ 迎新专栏】专业介绍");
+						article2.setDescription("同学们刚走入校园，相信很多同学对自己的专业存有疑惑。因此，这期的内容，就为大家简单介绍我们的专业以及相关需要学习的课程。");
+						article2.setPicUrl("http://liuwenru491001.wicp.net/weixinparent/images/intro.jpg");
+						article2.setUrl("http://mp.weixin.qq.com/s?__biz=MzA3MzMzNzEyNA==&mid=200791378&idx=1&sn=c2d4b8bb80a8372a1bb37beec7362535#rd");
 
 //						Article article3 = new Article();
 //						article3.setTitle("淮阴工学院计算机工程学院");
@@ -146,17 +146,17 @@ public class CoreService {
 					if(!flag){
 						//定制新的学号
 						Article article1 = new Article();
-						article1.setTitle("卡号绑定成功，欢迎来到\n淮阴工学院计算机工程学院");
-						article1.setDescription("");
-						article1.setPicUrl("http://liuwenru491001.wicp.net/weixinparent/images/01.jpg");
-						article1.setUrl("http://liuwenru491001.wicp.net/weixinparent/introduction.html");
+						article1.setTitle("卡号绑定成功，欢迎来到\n【计算机▪迎新专栏】新生安全须知");
+						article1.setDescription("亲爱的计算机工程学院的亲们：学校的生活多姿多彩，却又紧张有序。总体上，学校环境优美，治安状况良好。但是，你依旧需要树立安全意识，做到警钟长鸣，防患于未然。");
+						article1.setPicUrl("http://liuwenru491001.wicp.net/weixinparent/images/safe.jpg");
+						article1.setUrl("http://mp.weixin.qq.com/s?__biz=MzA3MzMzNzEyNA==&mid=200780186&idx=1&sn=1b4dfca966e1b8a59d0b08cde2c19fc7#rd");
 
 						Article article2 = new Article();
-						article2.setTitle("【计算机▪迎新专栏】新生安全须知");
-						article2.setDescription("");
-						article2.setPicUrl("http://liuwenru491001.wicp.net/weixinparent/images/04.jpg");
-						article2.setUrl("http://liuwenru491001.wicp.net/weixinparent/safety.html");
-//
+						article2.setTitle("【计算机 ▪ 迎新专栏】专业介绍");
+						article2.setDescription("同学们刚走入校园，相信很多同学对自己的专业存有疑惑。因此，这期的内容，就为大家简单介绍我们的专业以及相关需要学习的课程。");
+						article2.setPicUrl("http://liuwenru491001.wicp.net/weixinparent/images/intro.jpg");
+						article2.setUrl("http://mp.weixin.qq.com/s?__biz=MzA3MzMzNzEyNA==&mid=200791378&idx=1&sn=c2d4b8bb80a8372a1bb37beec7362535#rd");
+						
 //						Article article3 = new Article();
 //						article3.setTitle("淮阴工学院计算机工程学院");
 //						article3.setDescription("");
